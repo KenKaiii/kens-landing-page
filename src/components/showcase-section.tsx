@@ -2,7 +2,12 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { MonitorPlay, CloudDownload, AudioLines, ImageIcon } from "lucide-react";
+import {
+  MonitorPlay,
+  CloudDownload,
+  AudioLines,
+  ImageIcon,
+} from "lucide-react";
 import { staggerContainer, staggerItem, defaultViewport } from "@/lib/motion";
 import { GradientButton } from "@/components/ui/gradient-button";
 
@@ -148,7 +153,14 @@ export function ShowcaseSection() {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <GradientButton href="#pricing" className="md:px-16 md:py-4">
-          <span className="text-sm font-semibold text-white/95 md:text-base" style={{ fontFamily: "var(--font-datatype)", fontWeight: 600, color: "rgba(255, 255, 255, 0.95)" }}>
+          <span
+            className="text-sm font-semibold text-white/95 md:text-base"
+            style={{
+              fontFamily: "var(--font-datatype)",
+              fontWeight: 600,
+              color: "rgba(255, 255, 255, 0.95)",
+            }}
+          >
             Get Started — $XX
           </span>
         </GradientButton>

@@ -64,7 +64,10 @@ export function CtaSection() {
       <div className="relative z-10 mx-auto mt-24 max-w-5xl px-4 pb-12 text-center md:mt-32 md:px-8">
         <p
           className="text-base font-medium"
-          style={{ fontFamily: "var(--font-datatype)", color: "rgba(0, 0, 0, 0.7)" }}
+          style={{
+            fontFamily: "var(--font-datatype)",
+            color: "rgba(0, 0, 0, 0.7)",
+          }}
         >
           © {new Date().getFullYear()} YourSaaS
         </p>

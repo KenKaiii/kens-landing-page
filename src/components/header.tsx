@@ -86,7 +86,11 @@ export function Header() {
                 "text-lg font-bold transition-colors duration-300",
                 hasScrolled ? "text-slate-900" : "text-slate-900",
               )}
-              style={{ fontFamily: "var(--font-bitcount-single)", fontSize: "18px", fontWeight: 700 }}
+              style={{
+                fontFamily: "var(--font-bitcount-single)",
+                fontSize: "18px",
+                fontWeight: 700,
+              }}
             >
               YourSaaS
             </span>

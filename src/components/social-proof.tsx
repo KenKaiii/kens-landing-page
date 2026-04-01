@@ -18,7 +18,13 @@ export function SocialProof() {
       {/* Heading */}
       <p
         className="mb-6 text-center text-[13px] font-semibold leading-relaxed"
-        style={{ fontFamily: "var(--font-datatype)", fontSize: "13px", fontWeight: 600, lineHeight: "1.5em", color: "rgba(0, 0, 0, 0.6)" }}
+        style={{
+          fontFamily: "var(--font-datatype)",
+          fontSize: "13px",
+          fontWeight: 600,
+          lineHeight: "1.5em",
+          color: "rgba(0, 0, 0, 0.6)",
+        }}
       >
         Join [X]+ users who already [benefit of your product]
       </p>

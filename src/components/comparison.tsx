@@ -145,10 +145,26 @@ export function Comparison() {
 
           {/* Time Scale */}
           <div className="flex justify-between">
-            <span className="text-sm font-medium text-slate-400 md:text-base" style={{ fontFamily: "var(--font-datatype)", fontWeight: 500, lineHeight: "150%", color: "rgb(148, 163, 184)" }}>
+            <span
+              className="text-sm font-medium text-slate-400 md:text-base"
+              style={{
+                fontFamily: "var(--font-datatype)",
+                fontWeight: 500,
+                lineHeight: "150%",
+                color: "rgb(148, 163, 184)",
+              }}
+            >
               0 min
             </span>
-            <span className="text-sm font-medium text-slate-400 md:text-base" style={{ fontFamily: "var(--font-datatype)", fontWeight: 500, lineHeight: "150%", color: "rgb(148, 163, 184)" }}>
+            <span
+              className="text-sm font-medium text-slate-400 md:text-base"
+              style={{
+                fontFamily: "var(--font-datatype)",
+                fontWeight: 500,
+                lineHeight: "150%",
+                color: "rgb(148, 163, 184)",
+              }}
+            >
               30 min
             </span>
           </div>

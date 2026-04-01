@@ -159,11 +159,28 @@ export function FeatureCarousel() {
                       className="h-6 w-6"
                       style={{ color: "rgb(15, 23, 42)" }}
                     />
-                    <h3 className="text-xl font-semibold text-slate-900" style={{ fontFamily: "var(--font-datatype)", fontSize: "20px", fontWeight: 600, lineHeight: "150%", color: "rgb(15, 23, 42)" }}>
+                    <h3
+                      className="text-xl font-semibold text-slate-900"
+                      style={{
+                        fontFamily: "var(--font-datatype)",
+                        fontSize: "20px",
+                        fontWeight: 600,
+                        lineHeight: "150%",
+                        color: "rgb(15, 23, 42)",
+                      }}
+                    >
                       {feature.title}
                     </h3>
                   </div>
-                  <p className="font-medium leading-relaxed text-slate-500" style={{ fontFamily: "var(--font-datatype)", fontWeight: 500, lineHeight: "150%", color: "rgb(71, 85, 105)" }}>
+                  <p
+                    className="font-medium leading-relaxed text-slate-500"
+                    style={{
+                      fontFamily: "var(--font-datatype)",
+                      fontWeight: 500,
+                      lineHeight: "150%",
+                      color: "rgb(71, 85, 105)",
+                    }}
+                  >
                     {feature.description}
                   </p>
                 </div>

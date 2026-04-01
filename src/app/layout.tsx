@@ -24,12 +24,7 @@ export const metadata: Metadata = {
   },
   description:
     "A brief, compelling description of your SaaS product. What problem do you solve? Who is it for? Keep it under 160 characters for SEO.",
-  keywords: [
-    "your keyword",
-    "another keyword",
-    "saas",
-    "product",
-  ],
+  keywords: ["your keyword", "another keyword", "saas", "product"],
   authors: [{ name: "Your Name" }],
   creator: "Your Name",
   metadataBase: new URL("https://yourdomain.com"),
@@ -39,8 +34,7 @@ export const metadata: Metadata = {
     url: "https://yourdomain.com",
     siteName: "Your SaaS",
     title: "Your SaaS — Tagline that hooks visitors",
-    description:
-      "A brief, compelling description of your SaaS product.",
+    description: "A brief, compelling description of your SaaS product.",
     images: [
       {
         url: "/og-image.png",
@@ -53,8 +47,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Your SaaS — Tagline that hooks visitors",
-    description:
-      "A brief, compelling description of your SaaS product.",
+    description: "A brief, compelling description of your SaaS product.",
     images: ["/og-image.png"],
   },
   robots: {
