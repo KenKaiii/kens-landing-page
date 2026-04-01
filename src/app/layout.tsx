@@ -8,6 +8,7 @@ const bitcountSingle = localFont({
   variable: "--font-bitcount-single",
   display: "swap",
   weight: "400",
+  preload: false,
 });
 
 const datatype = localFont({
@@ -15,6 +16,7 @@ const datatype = localFont({
   variable: "--font-datatype",
   display: "swap",
   weight: "400",
+  preload: false,
 });
 
 export const metadata: Metadata = {
