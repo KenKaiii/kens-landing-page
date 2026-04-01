@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Twitter, Linkedin, User } from "lucide-react";
+import { MessageCircle, Briefcase, User } from "lucide-react";
 import { staggerContainer, staggerItem, defaultViewport } from "@/lib/motion";
 
 const testimonials = [
@@ -160,9 +160,9 @@ export function Testimonials() {
                     </div>
                   </div>
                   {testimonial.social === "twitter" ? (
-                    <Twitter className="h-5 w-5 text-slate-400" />
+                    <MessageCircle className="h-5 w-5 text-slate-400" />
                   ) : (
-                    <Linkedin className="h-5 w-5 text-slate-400" />
+                    <Briefcase className="h-5 w-5 text-slate-400" />
                   )}
                 </div>
 
