@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { motion } from "framer-motion";
 import {
   MonitorPlay,
@@ -36,8 +35,6 @@ const features = [
 ];
 
 export function ShowcaseSection() {
-  const [selected, setSelected] = useState("feature-1");
-
   return (
     <section className="bg-white px-4 py-16 md:py-32">
       {/* Header */}
@@ -112,20 +109,13 @@ export function ShowcaseSection() {
           viewport={defaultViewport}
         >
           {features.map((feature) => (
-            <motion.button
+            <motion.div
               key={feature.id}
-              onClick={() => setSelected(feature.id)}
-              className="cursor-pointer rounded-3xl p-4 text-left transition-all md:p-6"
+              className="rounded-3xl p-4 text-left md:p-6"
               style={{
-                backgroundColor:
-                  selected === feature.id
-                    ? "rgba(15, 23, 42, 0.03)"
-                    : "transparent",
-                opacity: selected === feature.id ? 1 : 0.5,
+                backgroundColor: "rgba(15, 23, 42, 0.03)",
               }}
               variants={staggerItem}
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
             >
               <div className="mb-2 flex items-center gap-3">
                 <feature.icon
@@ -139,7 +129,7 @@ export function ShowcaseSection() {
               <p className="text-sm font-medium leading-relaxed text-slate-500 md:text-base">
                 {feature.description}
               </p>
-            </motion.button>
+            </motion.div>
           ))}
         </motion.div>
       </div>

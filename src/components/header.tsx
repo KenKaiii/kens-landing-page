@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect, useCallback } from "react";
-import { cn } from "@/lib/utils";
 
 export function Header() {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -82,10 +81,7 @@ export function Header() {
           <Link href="/" className="flex items-center gap-2">
             <Image src="/logo.svg" alt="Logo" width={24} height={24} />
             <span
-              className={cn(
-                "text-lg font-bold transition-colors duration-300",
-                hasScrolled ? "text-slate-900" : "text-slate-900",
-              )}
+              className="text-lg font-bold text-slate-900"
               style={{
                 fontFamily: "var(--font-bitcount-single)",
                 fontSize: "18px",

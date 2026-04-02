@@ -37,20 +37,11 @@ export const metadata: Metadata = {
     siteName: "Your SaaS",
     title: "Your SaaS — Tagline that hooks visitors",
     description: "A brief, compelling description of your SaaS product.",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Your SaaS — Product description",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Your SaaS — Tagline that hooks visitors",
     description: "A brief, compelling description of your SaaS product.",
-    images: ["/og-image.png"],
   },
   robots: {
     index: true,

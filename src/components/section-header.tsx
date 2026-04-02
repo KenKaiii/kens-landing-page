@@ -5,28 +5,18 @@ import { staggerContainer, staggerItem, defaultViewport } from "@/lib/motion";
 
 interface SectionHeaderProps {
   badge: string;
-  badgeColor?: string;
   heading: string[];
   description: string | string[];
-  variant?: "light" | "dark";
 }
 
 export function SectionHeader({
   badge,
-  badgeColor,
   heading,
   description,
-  variant = "light",
 }: SectionHeaderProps) {
-  const isDark = variant === "dark";
-  const defaultBadgeColor = isDark ? "rgb(255, 255, 255)" : "rgb(99, 102, 241)";
-  const badgeBorderColor = isDark
-    ? "rgba(255, 255, 255, 0.2)"
-    : "rgba(99, 102, 241, 0.2)";
-  const headingColor = isDark ? "rgb(255, 255, 255)" : "rgb(15, 23, 42)";
-  const descriptionColor = isDark
-    ? "rgba(255, 255, 255, 0.7)"
-    : "rgb(71, 85, 105)";
+  const badgeBorderColor = "rgba(99, 102, 241, 0.2)";
+  const headingColor = "rgb(15, 23, 42)";
+  const descriptionColor = "rgb(71, 85, 105)";
 
   const descriptions = Array.isArray(description) ? description : [description];
 
@@ -49,7 +39,7 @@ export function SectionHeader({
             className="text-sm font-medium md:text-base"
             style={{
               lineHeight: "150%",
-              color: badgeColor || defaultBadgeColor,
+              color: "rgb(99, 102, 241)",
             }}
           >
             {badge}
