@@ -2,6 +2,9 @@
 
 A production-ready, animated SaaS landing page boilerplate built with Next.js 16, React 19, Tailwind CSS v4, and Framer Motion.
 
+> [!TIP]
+> **Want to build your own apps with AI?** A free 7-day build challenge and 20+ step-by-step projects are in my free community: **[skool.com/raid](https://www.skool.com/raid)**
+
 ## What's included
 
 - **Header** — Sticky glass-blur header with desktop nav, mobile hamburger menu, and floating mobile CTA
